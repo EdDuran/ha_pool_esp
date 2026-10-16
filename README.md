@@ -1,5 +1,10 @@
 # Pool ESP Integration
-<ins>2026 by Strebor Tech</ins>
+
+<img width="200" alt="image" src="https://github.com/user-attachments/assets/a24a0964-b6c4-4c40-b900-45bef9e0e97f" />
+
+</p>
+<h3 align="left">2026, EdDuran @ Strebor Tech</h3>
+<p></p>
 
 ## Description
 > **_Dad .. When will the Spa be ready? ??_**
@@ -35,7 +40,12 @@ Pool ESP currently relies on data provided by the *Pentair Screenlogic Integrati
 
 ## Installation via HACS
 
-Look for "Pool ESP" and install
+Install HACS if you haven't already. [See installation guide](https://www.hacs.xyz/docs/use/download/download/)
+1. Add custom repository `https://github.com/EdDuran/ha_pool_esp.git` as "Integration" in the settings tab of HACS.
+2. Go to: Settings → Devices & Services → **Add Integration** → and search for "Pool ESP".
+3. Restart Home Assistant
+4. Go to: Settings → Devices & Services → Pool ESP and **Add Entry**
+5. Select your Configuration and Submit
 
 ## Configuration steps
 Pool ESP is Zero Config (well, other than optional heater type and energy usage and cost). The Integration automatically identifies your Pentair Screenlogic Device and adds its own Sensor Entities.
